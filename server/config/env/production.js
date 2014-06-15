@@ -3,11 +3,11 @@
 module.exports = {
     db: 'mongodb://localhost/mean-prod',
     app: {
-        name: 'MEAN - A Modern Stack - Production'
+        name: 'SimpleGroup'
     },
     facebook: {
-        clientID: 'APP_ID',
-        clientSecret: 'APP_SECRET',
+        clientID: '1520426604847279',
+        clientSecret: '1d93d09dab625bd638d1f900dd548017',
         callbackURL: 'http://localhost:3000/auth/facebook/callback'
     },
     twitter: {
