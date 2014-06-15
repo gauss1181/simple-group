@@ -19,12 +19,12 @@ Articles.register(function(app, auth, database) {
     //We are adding a link to the main menu for all authenticated users
     Articles.menus.add({
         'roles': ['authenticated'],
-        'title': 'Articles',
+        'title': 'Current Meetups',
         'link': 'all articles'
     });
     Articles.menus.add({
         'roles': ['authenticated'],
-        'title': 'Create New Article',
+        'title': 'Post Event/Find Meetups',
         'link': 'create article'
     });
 

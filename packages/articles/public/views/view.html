@@ -1,3 +1,4 @@
+<!--<script>alert('Submitted!');</script>-->
 <section data-ng-controller="ArticlesController" data-ng-init="findOne()">
     <span>{{article.created | date:'medium'}}</span> /
     <span>{{article.user.name}}</span>
@@ -12,3 +13,10 @@
     </div>
     <div>{{article.content}}</div>
 </section>
+<!--<script>
+    if ($scope.article.title == 'Sad') {
+        alert('Awww, cheer up!');
+    } else {
+        alert('Submitted!');
+    }
+</script>-->

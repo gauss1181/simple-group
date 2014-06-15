@@ -18,6 +18,13 @@ angular.module('mean').controller('ArticlesController', ['$scope', '$stateParams
                 article.$save(function(response) {
                     $location.path('articles/' + response._id);
                 });
+		if (article.title === 'Sad') {
+		    alert('Awww cheer up! We all have our ups and downs in life. How about spending a night relaxing and wine tasting at the Anchor Brewing Company? MEGAN CHEN is there tonight.');
+		} else if (article.title === 'I am hungry...') {
+		    alert('There is a nice Japanese restaurant called Live Sushi Bar on 17th St! Grab a nice meal there. JOHN SMITH is there tonight.');
+		} else if (article.title === 'Ultimate Frisbee, anyone?') {
+		    alert('JOHN SMITH is hosting a game at Jackson Field! Also JANE DOE will be there too.');
+		}
 
                 this.title = '';
                 this.content = '';
